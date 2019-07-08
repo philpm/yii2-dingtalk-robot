@@ -42,14 +42,14 @@ class Target extends \yii\log\Target
             ]
         ];
 
-        $this->curl_post_ssl($data,"https://oapi.dingtalk.com/robot/send?"+$this->robotToken);
+        $this->curl_post_ssl($data, "https://oapi.dingtalk.com/robot/send?access_token=" . $this->robotToken);
 
     }
 
     /**
      *  POST请求
      */
-    protected function curl_post_ssl($data = null,$url)
+    protected function curl_post_ssl($data = null, $url)
     {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);

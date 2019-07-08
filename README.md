@@ -28,6 +28,9 @@ php composer.phar require --prefer-dist philpm/yii2-dingtalk-robot "0.0.1"
                 'class' => 'phil\dingtalk\Target',
                 'levels' => ['error', 'warning'],
                 'categories' => ['api', 'app'],
+                'robotToken'=>'******', // your dingding access_token
+                'at'=> [13800138000,18888888888], // the mobile of the receiver
+                'isAtAll'=>true, // at 所有人
                 'except' => [
                     'yii\web\HttpException:404',
                 ],
