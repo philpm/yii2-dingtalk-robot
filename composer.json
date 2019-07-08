@@ -1,5 +1,5 @@
 {
-    "name": "phil/yii2-dingtalk-robot",
+    "name": "philpm/yii2-dingtalk-robot",
     "description": "使用钉钉群聊机器人做为target",
     "type": "library",
     "license": "MIT",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "phil\\dingtalk\\": "src/"
+            "philpm\\dingtalk\\": "src/"
         }
     }
 }

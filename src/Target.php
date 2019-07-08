@@ -6,7 +6,7 @@
  * 使用钉钉机器人作为日志的target
  */
 
-namespace phil\dingtalk;
+namespace philpm\dingtalk;
 
 use yii\base\InvalidConfigException;
 

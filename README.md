@@ -8,13 +8,13 @@ yii2-dingtalk-robot
 ### 1. 使用composer require安装
 
 ```sh
-php composer.phar require --prefer-dist phil/yii2-dingtalk-robot "0.0.3"
+php composer.phar require --prefer-dist philpm/yii2-dingtalk-robot "0.0.1"
 ```
 
 ### 2. 添加依赖到composer.json文件
 
 ```json
-"phil/yii2-dingtalk-robot": "0.0.3"
+"philpm/yii2-dingtalk-robot": "0.0.1"
 ```
 
 ## Usage
